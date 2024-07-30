@@ -1,2 +1,14 @@
-# Explore_Dataset
-The primary focus of this project is to explore the relationship between five selected variables and the severity of heart disease,
+This analysis revealed varying degrees of correlation between the selected variables and heart disease severity:
+
+Number of Major Blood Vessels Colored by Fluoroscopy (ca): This variable showed a very strong and significant linear relationship with the severity of heart disease. The average number of blood vessels colored by fluoroscopy increased consistently with the severity of heart disease, from 0.27 for target = 0 to 1.69 for target = 4. The scatter plot confirms this strong association, highlighting its potential as a crucial diagnostic indicator.
+
+Exercise-Induced Angina (exang): There is a strong and significant relationship between exercise-induced angina and heart disease severity. The percentage of patients with exercise-induced angina increased markedly from 14.02% in the no heart disease category (target = 0) to over 60% in categories 2 and 3. The bar graph clearly illustrates this important relationship, underscoring the relevance of exercise-induced angina in assessing heart disease severity.
+
+Resting Blood Pressure (trestbps): Although there is a definite linear relationship between resting blood pressure and heart disease severity, the differences are relatively small. The average resting blood pressure increases from 129.25 mm Hg in the no heart disease category to 138.77 mm Hg in the most severe category. While this trend is observable, it is less pronounced compared to the fluoroscopy and angina data, indicating a weaker predictive value.
+
+Fasting Blood Sugar (fbs): The analysis shows no useful relationship between fasting blood sugar levels greater than 120 mg/dl and heart disease severity. The proportions of patients with high fasting blood sugar are inconsistent across the heart disease categories, suggesting that this binary categorization may not be effective in this context. This finding calls into question the utility of this threshold for predicting heart disease severity.
+
+Cholesterol Levels (chol): Surprisingly, cholesterol levels do not show a significant relationship with heart disease severity. The average cholesterol levels vary across the categories, but without a clear pattern. This lack of correlation is a notable finding, indicating that cholesterol may not be as reliable a predictor of heart disease severity as previously thought. This result warrants further investigation with larger datasets to confirm these observations.
+
+Overall, this study highlights the significant predictive value of the number of major blood vessels colored by fluoroscopy and exercise-induced angina in determining heart disease severity. Resting blood pressure also shows a relationship, albeit weaker. In contrast, fasting blood sugar and cholesterol levels do not provide meaningful correlations in this dataset. Follow up studies should include more defined data for fasting blood glucose levels thus allowing a more comprehensive analysis. The cholesterol relationship warrants further analysis as the data pattern strongly indicates a non relationship in this analysis. 
+
